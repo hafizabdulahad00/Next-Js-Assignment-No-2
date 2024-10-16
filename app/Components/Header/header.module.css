@@ -1,0 +1,85 @@
+.mainContainer{
+    background-color: #F9F6F0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.linkText{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all ease 0.3s;
+}
+
+.linkText ul li:hover{
+    color: red;
+}
+
+.btn{
+    color: #000;
+    border:1px solid red;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+@media (max-width: 768px) {
+    .mainContainer {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .linkText {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .linkText ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    .linkText ul li {
+        margin: 0;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        height: 80px;
+        width: 80px;
+    }
+
+    .linkText {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 8px 20px;
+    }
+}

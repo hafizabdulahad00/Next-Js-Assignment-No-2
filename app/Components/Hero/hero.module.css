@@ -1,0 +1,82 @@
+.heroMain{
+    height: 900px;
+    width: 100%;
+    background-color: #00000075;
+    background-image: url(https://wallpapers.com/images/hd/best-food-background-0neqcd9ozlv3js9y.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode:overlay;
+    text-align: center;
+}
+
+
+.heroH1{
+    text-transform: capitalize;
+    color:#fff;
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.heroH3{
+    text-transform: capitalize;
+    color:#fff;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heroBtn{
+    color: #fff;
+    background-color: red;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+
+@media (max-width: 768px) {
+    .heroMain {
+        height: 600px; 
+    }
+
+    .heroH1 {
+        font-size: 50px; 
+    }
+
+    .heroH3 {
+        font-size: 24px; 
+    }
+
+    .heroBtn {
+        padding: 8px 20px; 
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .heroMain {
+        height: 400px; 
+    }
+
+    .heroH1 {
+        font-size: 36px; 
+    }
+
+    .heroH3 {
+        font-size: 20px; 
+    }
+
+    .heroBtn {
+        width: 100%; 
+    }
+}
